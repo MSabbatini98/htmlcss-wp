@@ -15,6 +15,7 @@ body{
     margin-top: 10px;
 }
 
+/* header */
 header img {
     height: 50px;
     padding-right: 20px;
@@ -29,21 +30,48 @@ header nav ul li{
     font-weight: 300;
     color: #BFBFBF;
     padding: 20px 8px 15px 0;
-
 }
-/* parte centrale superiore */
+
+/* banner */
 .banner {
-    background-color: #E3D67A;
-    height: 275px;
-    margin: 10px 0;
+    position: relative;
+    height: 450px;
+    background-image: url('../img/banner.jpg');
+    background-position: right 50% bottom 50%;
+    border-radius: 4%;
+    color: black;
     /* border: dashed 5px white; */
 }
+.titolo_didascalia{
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    margin-left: 5%;
+        color: black;
 
-/* parte centrale inferiore */
- .middle {
-    background-color: #0385FF;
+}
+.titolo_didascalia h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:150%;
+    font-weight: 500;
+
 }
 
+
+/* middle */
+.middle {
+    margin-top: 20px;
+    color: #BFBFBF;
+}
+.middle h2 {
+    /* color: blue; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 800;
+}
+.middle p {
+    color:
+}
 .middle::after {
     content: "";
     display: block;
@@ -52,7 +80,7 @@ header nav ul li{
 
 .middle .box_titolo {
     height: 70px;
-    background-color: #ABCFE7;
+    background-color: black;
 }
 .middle .box_left,
 .middle .box_right
