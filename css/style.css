@@ -15,9 +15,21 @@ body{
     margin-top: 10px;
 }
 
-header {
-    background-color: #E579E6;
-    height: 80px;
+header img {
+    height: 50px;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+}
+header nav ul li{
+    display: inline-block;
+    position: sticky;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #BFBFBF;
+    padding: 20px 8px 15px 0;
+
 }
 /* parte centrale superiore */
 .banner {
