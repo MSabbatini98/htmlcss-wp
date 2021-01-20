@@ -125,9 +125,50 @@ header nav ul li{
 }
 /* fine della parte centrale inferiore */
 
+
 footer{
     height: 40px;
+    text-align: center;
     margin: 5px 0 10px 0;
-    background-color: #8801FE;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    color: black;
+
+    /* background-color: #8801FE; */
+}
+
+/* heart made by Geoff Graham link:https://css-tricks.com/hearts-in-html-and-css/
+e modificato da Matteo Sabbatini (ho cambiato solo alcune dimensioni)*/
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 10px;
+  margin: 10px 10px;
+  position: relative;
+  top: 10px;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.heart:before {
+  top: -6px;
+  left: 0;
+}
+
+.heart:after {
+  left: 6px;
+  top: 0px;
 }
 /* fine del footer */
