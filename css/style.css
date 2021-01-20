@@ -13,6 +13,7 @@ body{
     margin: auto;
     background-color: white;
     margin-top: 10px;
+    color: #BFBFBF;
 }
 
 /* header */
@@ -38,7 +39,7 @@ header nav ul li{
     height: 450px;
     background-image: url('../img/banner.jpg');
     background-position: right 50% bottom 50%;
-    border-radius: 4%;
+    border-radius: 3%;
     color: black;
     /* border: dashed 5px white; */
 }
@@ -59,43 +60,67 @@ header nav ul li{
 
 
 /* middle */
-.middle {
-    margin-top: 20px;
-    color: #BFBFBF;
-}
+
 .middle h2 {
-    /* color: blue; */
-    font-family: 'Montserrat', sans-serif;
-    font-size: 200%;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 180%;
     font-weight: 800;
 }
-.middle p {
-    color:
+.middle h4 {
+    font-size: 110%;
+    color: grey;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.middle p{
+    font-family: 'Montserrat';
+    font-size: 80%;
 }
 .middle::after {
     content: "";
     display: block;
     clear: both;
 }
-
 .middle .box_titolo {
-    height: 70px;
-    background-color: black;
+    /* background-color: black; */
+    margin: 20px 0;
+}
+
+.middle .box_left img,
+.middle .box_right img {
+    object-fit: cover;
+    object-position: center;
+    height: 175px;
+    width: 100%;
+    border-radius: 3%;
+        border: solid 3px blue;
+    margin-bottom: 20px;
+}
+.middle .box_middle img{
+    object-fit: cover;
+    object-position: center;
+    height: 175px;
+    width: 100%;
+    border-radius: 3%;
+        border: dotted 3px red;
+
+    margin-bottom: 20px;
 }
 .middle .box_left,
 .middle .box_right
  {
     float: left;
-    background-color: #ABCFE7;
-    height: 500px;
-    width: 23%;
+        /* color: black; */
+    width: 20%;
     margin-top: 2%;
 }
 .middle .box_middle{
     float: left;
-    background-color: #ABCFE7;
-    height: 500px;
-    width: 50%;
+    /* background-color: #ABCFE7; */
+    height: 90%;
+    width: 55%;
     margin: 2% 2%;
 }
 /* fine della parte centrale inferiore */
